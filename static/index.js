@@ -113,7 +113,7 @@ var _gameBBList = [],
 
 function gameInit() {
     createjs.Sound.registerSound({
-        src: "https://www.ytmp3.cn/down/47080.mp3",
+        src: "./static/music/err.mp3",
         id: "err"
     });
     createjs.Sound.registerSound({
